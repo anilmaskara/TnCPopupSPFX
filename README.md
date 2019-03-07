@@ -1,5 +1,26 @@
-# Term and Condition SPFX Extension Popup
+## spfx-extension
 
-* Once the extesnion will be installed on the Modern Sharepoint Site a Dialog box will open while accessing any page . 
-* User Need to Accept the T&C in order to proceed.
-* Once the user accepts the T&C the model poup will not be generated again
+This is where you include your WebPart documentation.
+
+### Building the code
+
+```bash
+git clone the repo
+npm i
+npm i -g gulp
+gulp
+```
+
+This package produces the following:
+
+* lib/* - intermediate-stage commonjs build artifacts
+* dist/* - the bundled script, along with other resources
+* deploy/* - all resources which should be uploaded to a CDN.
+
+### Build options
+
+gulp clean - TODO
+gulp test - TODO
+gulp serve - TODO
+gulp bundle - TODO
+gulp package-solution - TODO

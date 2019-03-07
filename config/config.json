@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "term-and-condition-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/termAndCondition/TermAndConditionApplicationCustomizer.js",
+          "manifest": "./src/extensions/termAndCondition/TermAndConditionApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TermAndConditionApplicationCustomizerStrings": "lib/extensions/termAndCondition/loc/{locale}.js"
+  }
+}
